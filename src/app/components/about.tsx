@@ -1,0 +1,119 @@
+// app/about/page.tsx
+import Image from "next/image";
+
+export default function AboutPage() {
+  const images = [
+    "/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg",
+    "/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg",
+    "/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg",
+    "/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg",
+    "/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg",
+    "/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg",
+    "/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg",
+  ];
+
+  return (
+    <main className="min-h-screen bg-[#1a1a1a] text-white px-6 md:px-16 py-20">
+      <div className="">
+        {/* Header */}
+        <div className="mb-10">
+          <p className="text-gray-400 text-[16px] font-poppins font-semibold mb-2">About Me</p>
+          <h1 className="text-3xl md:text-5xl font-bold">
+            Why I Started Startup Uncut
+          </h1>
+        </div>
+
+        {/* Collage Grid */}
+        <div className="grid full grid-cols-5 gap-4 mt-20 ">
+          <div className="col-span-5 row-span-4 flex flex-row gap-4 w-full">
+            <div className="flex flex-col gap-4 w-full h-[600px]  py-44 ">
+                   <div className="flex flex-col gap-4 w-full h-[600px] bg-white">
+                    <Image
+                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      alt="Villa Sathkara"
+                      width={500}
+                      height={500}
+                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                    />
+                   </div>
+            </div>
+            <div className=" gap-4 w-full h-[600px] flex flex-col gap-4 w-full py-20">
+                <div className="flex flex-col gap-4 w-full h-[300px] bg-white">
+                    <Image
+                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      alt="Villa Sathkara"
+                      width={500}
+                      height={500}
+                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                    />
+                </div>
+                <div className="flex flex-col gap-4 w-full h-[600px] bg-white">
+                    <Image
+                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      alt="Villa Sathkara"
+                      width={500}
+                      height={500}
+                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                    />
+                </div>
+            </div>
+            <div className="flex flex-col gap-4 w-full h-[600px] bg-white">
+                    <Image
+                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      alt="Villa Sathkara"
+                      width={500}
+                      height={500}
+                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                    />
+            </div>
+            <div className=" gap-4 w-full h-[600px] flex flex-col gap-4 w-full py-20">
+                <div className="flex flex-col gap-4 w-full h-[600px] bg-white">
+                    <Image
+                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      alt="Villa Sathkara"
+                      width={500}
+                      height={500}
+                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                    />
+                </div>
+                <div className="flex flex-col gap-4 w-full h-[300px] bg-white">
+                    <Image
+                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      alt="Villa Sathkara"
+                      width={500}
+                      height={500}
+                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                    />
+                </div>
+            </div>
+            <div className="flex flex-col gap-4 w-full h-[600px]  py-44">
+                   <div className="flex flex-col gap-4 w-full h-[600px] bg-white">
+                    <Image
+                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      alt="Villa Sathkara"
+                      width={500}
+                      height={500}
+                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                    />
+                   </div>
+            </div>
+          </div>    
+        </div>
+        {/* Text Section */}
+        <div className="text-gray-300 mt-20 leading-relaxed space-y-4">
+          <p className="text-[#E8E8E8] font-poppins text-[24px] leading-relaxed font-medium">
+            I didn’t start Startup Uncut because I had the answers. I started
+            it because I was willing to document the search for them.
+          </p>
+          <p className="text-[#E8E8E8] font-poppins text-[24px] leading-relaxed font-medium ">
+            After failing my A/L white coat dream, I entered entrepreneurship
+            with zero guarantees and a hundred fears. I realized that while
+            everyone talks about success, almost no one shows the messy middle 
+            the confusion, the self-doubt, the long nights, the rejections, and
+            the constant questioning of “Am I doing this right?”
+          </p>
+        </div>
+      </div>
+    </main>
+  );
+}
