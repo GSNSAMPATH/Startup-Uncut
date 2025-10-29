@@ -27,73 +27,73 @@ export default function AboutPage() {
         <div className="grid full grid-cols-5 gap-4 mt-20 ">
           <div className="col-span-5 row-span-4 flex flex-row gap-4 w-full">
             <div className="flex flex-col gap-4 w-full h-[600px]  py-44 ">
-                   <div className="flex flex-col gap-4 w-full h-[600px] bg-white">
+                   <div className="flex flex-col gap-4 w-full h-[600px]  rounded-xl">
                     <Image
-                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739926/WhatsApp_Image_2025-10-29_at_09.59.01_b66a7276_qxan0x.jpg"
                       alt="Villa Sathkara"
                       width={500}
                       height={500}
-                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                      className="object-cover w-full h-full rounded-xl hover:scale-110 transition duration-300 ease-in-out"
                     />
                    </div>
             </div>
             <div className=" gap-4 w-full h-[600px] flex flex-col gap-4 w-full py-20">
-                <div className="flex flex-col gap-4 w-full h-[300px] bg-white">
+                <div className="flex flex-col gap-4 w-full h-[300px]  rounded-xl">
                     <Image
-                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739924/WhatsApp_Image_2025-10-29_at_09.58.58_101daea6_l17x5o.jpg"
                       alt="Villa Sathkara"
                       width={500}
                       height={500}
-                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                      className="object-cover w-full h-full rounded-xl hover:scale-110 transition duration-300 ease-in-out"
                     />
                 </div>
-                <div className="flex flex-col gap-4 w-full h-[600px] bg-white">
+                <div className="flex flex-col gap-4 w-full h-[600px]  rounded-xl">
                     <Image
-                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739923/WhatsApp_Image_2025-10-29_at_09.58.58_4ebbc757_nvjnui.jpg"
                       alt="Villa Sathkara"
                       width={500}
                       height={500}
-                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                      className="object-cover w-full h-full rounded-xl hover:scale-110 transition duration-300 ease-in-out"
                     />
                 </div>
             </div>
-            <div className="flex flex-col gap-4 w-full h-[600px] bg-white">
+            <div className="flex flex-col gap-4 w-full h-[600px]  rounded-2xl">
                     <Image
-                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739925/WhatsApp_Image_2025-10-29_at_09.58.57_676f5f4a_lnvr7a.jpg"
                       alt="Villa Sathkara"
                       width={500}
                       height={500}
-                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out rounded-xl"
                     />
             </div>
             <div className=" gap-4 w-full h-[600px] flex flex-col gap-4 w-full py-20">
-                <div className="flex flex-col gap-4 w-full h-[600px] bg-white">
+                <div className="flex flex-col gap-4 w-full h-[600px] rounded-xl">
                     <Image
-                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739923/WhatsApp_Image_2025-10-29_at_09.58.55_011499e6_pzyodm.jpg"
                       alt="Villa Sathkara"
                       width={500}
                       height={500}
-                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                      className="object-cover w-full h-full rounded-xl hover:scale-110 transition duration-300 ease-in-out"
                     />
                 </div>
-                <div className="flex flex-col gap-4 w-full h-[300px] bg-white">
+                <div className="flex flex-col gap-4 w-full h-[300px]  rounded-xl">
                     <Image
-                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739927/WhatsApp_Image_2025-10-29_at_09.59.00_49671580_tkiwc1.jpg"
                       alt="Villa Sathkara"
                       width={500}
                       height={500}
-                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                      className="object-cover w-full h-full rounded-xl  hover:scale-110 transition duration-300 ease-in-out"
                     />
                 </div>
             </div>
-            <div className="flex flex-col gap-4 w-full h-[600px]  py-44">
-                   <div className="flex flex-col gap-4 w-full h-[600px] bg-white">
+            <div className="flex flex-col gap-4 w-full h-[600px]  py-44 ">
+                   <div className="flex flex-col gap-4 w-full h-[600px]  rounded-xl">
                     <Image
-                      src="/dffca2f47e1eef1c215958aa0a33b0f56541cbe2.jpg"
+                      src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739926/WhatsApp_Image_2025-10-29_at_09.58.59_1cb3f3d7_ziboeh.jpg"
                       alt="Villa Sathkara"
                       width={500}
                       height={500}
-                      className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
+                      className="object-cover w-full h-full rounded-xl hover:scale-110 transition duration-300 ease-in-out"
                     />
                    </div>
             </div>
