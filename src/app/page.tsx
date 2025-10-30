@@ -4,6 +4,7 @@ import Timeline from "./components/TimeLine";
 import LogoGrid from "./components/LogoGrid";
 import StorySection from "./components/StorySection";
 import StartupCommunity from "./components/StartupCommunity";
+import VideoSection from "./components/VideoSection";
 
 export default function Home() {
   return (
@@ -11,9 +12,10 @@ export default function Home() {
       <Hero />
       <AboutPage />
       <Timeline />
-      <LogoGrid />
+      {/* <LogoGrid /> */}
       <StorySection />
       <StartupCommunity />
+      <VideoSection />
     </>
   );
 }

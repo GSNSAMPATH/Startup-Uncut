@@ -129,7 +129,7 @@ export default function Hero() {
       {/* Explore More Button */}
       <div className="flex justify-end mt-10">
         <button className="bg-transparent font-poppins text-[16px] font-medium text-black px-3 py-2 justify-between gap-8 rounded-xl border border-gray-800 flex items-center gap-2 hover:bg-gray-200 transition">
-          <p>Explore More </p>
+          <p className="px-8">Explore More </p>
           <FaArrowRight className="text-sm bg-black text-gray-100 h-8 w-8 p-2 rounded-lg" />
         </button>
       </div>

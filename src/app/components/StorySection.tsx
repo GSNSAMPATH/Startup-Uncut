@@ -12,7 +12,7 @@ export default function StorySection() {
 
 
   return (
-    <section className="bg-white text-gray-800 px-16  py-20 ">
+    <section className="text-gray-800 px-16  py-20 ">
       <h2 className="font-poppins text-[40px] font-bold text-black tracking-wider mb-10">
         Why Startup Uncut Exists
       </h2>
