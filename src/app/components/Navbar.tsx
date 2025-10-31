@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <header className="relative w-full sticky  bg-white shadow-sm md:shadow-none top-0 z-50">
-      <nav className="px-16 py-4 flex justify-between items-center">
+      <nav className="px-4 md:px-16 py-4 flex justify-between items-center">
         
         <div className="flex items-center lg:gap-12 sm:gap-2">
         {/* Logo */}

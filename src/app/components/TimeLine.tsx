@@ -55,13 +55,13 @@ const timelineData = [
 
 export default function Timeline() {
   return (
-    <section className="relative  text-black py-24 font-inter px-16">
+    <section className="relative  text-black py-24 font-inter px-4 md:px-16">
       <div className=" relative">
         {/* Title */}
-        <h1 className="font-poppins text-[16px] font-semibold text-gray-500  tracking-wider">
+        <h1 className="font-poppins text-[8px] sm:text-[12px] lg:text-[16px] font-semibold text-gray-500  tracking-wider">
           Time Line
         </h1>
-        <h2 className="font-poppins text-[40px] font-bold text-black  tracking-wider mb-20">
+        <h2 className="font-poppins text-[20px] sm:text-[30px] lg:text-[40px] font-bold text-black  tracking-wider mb-20">
           My Startup Growth Story
         </h2>
     </div>
@@ -71,7 +71,7 @@ export default function Timeline() {
         <div className="absolute left-1/2 top-0 bottom-0 w-[1.5px] bg-gray-600 transform -translate-x-1/2" />
 
         {/* Timeline Items */}
-        <div className="relative flex flex-col space-y-10 ">
+        <div className="relative flex flex-col sm:space-y-6 lg:space-y-10 ">
           {timelineData.map((item, index) => (
             <div
               key={index}
@@ -83,29 +83,29 @@ export default function Timeline() {
               <div
                 className={`w-1/2 text-black justify-center  ${
                   item.side === "left"
-                    ? "text-right pr-8"
-                    : "text-left pl-8"
+                    ? "text-right pr-8 lg:pr-8"
+                    : "text-left  pl-8 lg:pl-8"
                 }`}
               >
-                <h3 className={`font-poppins text-center w-[160px] mx-auto  bg-[#2e2e2e] text-gray-100 text-[16px] font-medium leading-relaxed rounded-4xl px-5 py-2 shadow-lg ${item.side === "left" ? "ml-10" : "mr-10"} `}>
+                <h3 className={`font-poppins text-center w-[100px] sm:w-[120px] lg:w-[160px] mx-auto  bg-[#2e2e2e] text-gray-100  text-[10px] sm:text-[12px] lg:text-[16px] font-medium leading-relaxed rounded-4xl px-2 sm:px-3 lg:px-5 py-2 shadow-lg ${item.side === "left" ? " ml-2 sm:ml-4 lg:ml-10" : " mr-2 sm:mr-4 lg:mr-10"} `}>
                 {item.date}
                 </h3>
               </div>
 
               {/* Dot */}
               <div className="relative flex items-top mt-3 justify-center">
-                <div className="w-8 h-8 bg-black border-[4px] border-gray-400 shadow-xl rounded-full z-10" />
+                <div className="w-4 h-4 sm:w-6 sm:h-6 lg:w-8 lg:h-8 bg-black border-[4px] border-gray-400 shadow-xl rounded-full z-10" />
               </div>
 
               {/* Description Box */}
               <div className="w-1/2 ">
                 <div className=" ">
-                <h2 className={`font-poppins mt-2 text-[16px] font-semibold text-black  tracking-wider ${item.side === "left" ? "text-right pr-10" : "text-left pl-10"} `}> {item.title}</h2>
+                <h2 className={`font-poppins mt-2 text-[10px] sm:text-[12px] lg:text-[16px] font-semibold text-black  tracking-wider ${item.side === "left" ? "text-right pr-2 sm:pr-4 lg:pr-10" : "text-left pl-2 sm:pl-4 lg:pl-10"} `}> {item.title}</h2>
                  </div>
                 <p
-                className={` w-full mt-4 text-sm text-white font-poppins leading-relaxed ${
-                    item.side === "left" ? "text-right pr-10" : "text-left pl-10"
-                } ${item.text.length === 0 ? "hidden" : "border border-gray-600 rounded-xl py-6 px-10 bg-[#484848]"}`}
+                className={` w-full mt-4 text-[8px] sm:text-[12px] lg:text-[16px] text-white font-poppins leading-relaxed ${
+                    item.side === "left" ? "text-right lg:pr-10" : "text-left lg:pl-10"
+                } ${item.text.length === 0 ? "hidden" : "border border-gray-600 rounded-xl py-2 sm:py-4 lg:py-6 px-2 sm:px-6 lg:px-10 bg-[#484848]"}`}
                 >
                 {item.text.length === 0 ? " " : item.text}
                 </p>

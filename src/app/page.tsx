@@ -13,9 +13,9 @@ export default function Home() {
       <AboutPage />
       <Timeline />
       {/* <LogoGrid /> */}
-      <StorySection />
+      {/* <StorySection />
       <StartupCommunity />
-      <VideoSection />
+      <VideoSection /> */}
     </>
   );
 }

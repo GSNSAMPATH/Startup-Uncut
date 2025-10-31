@@ -28,6 +28,34 @@ body {
 
 }
 
+@media screen {
+  @media  (max-width: 900px) {
+    .hederfont {
+      font-size: 40px;
+    }
+    
+  }
+}
+
+@media screen {
+  @media (max-width: 600px) {
+    .hederfont {
+      font-size: 30px;
+    }
+  }
+}
+
+@media screen {
+  @media (max-width: 400px) {
+    .hederfont {
+      font-size: 20px;
+    }
+  }
+  
+}
+
+
+
 /* @keyframes scroll {
   0% {
     transform: translateX(0);
