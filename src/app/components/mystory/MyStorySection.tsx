@@ -32,16 +32,16 @@ export default function MyStorySection() {
       </div>
 
       {/* ✅ Right Side Images */}
-      <div className="flex gap-2 md:gap-6 md:h-[250px] md:w-1/2 justify-end order-1 lg:order-2 ">
-        <div className="relative w-28 h-40 md:w-36 md:h-full rounded-xl overflow-hidden">
+      <div className="relative  flex gap-2 w-full  md:gap-6 md:h-[250px] md:w-1/2 justify-end order-1 lg:order-2 ">
+        <div className="relative w-full h-40 md:w-36 md:h-full rounded-xl overflow-hidden">
           <Image
             src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739926/WhatsApp_Image_2025-10-29_at_09.58.59_51024166_ditgtd.jpg"
             alt="Work Image 1"
             fill
-            className="object-cover"
+            className="object-cover "
           />
         </div>
-        <div className="relative w-28 h-40 md:w-36 md:h-full rounded-xl overflow-hidden">
+        <div className="relative w-full h-40 md:w-36 md:h-full rounded-xl overflow-hidden">
           <Image
             src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739926/WhatsApp_Image_2025-10-29_at_09.58.59_51024166_ditgtd.jpg"
             alt="Work Image 2"
@@ -49,7 +49,7 @@ export default function MyStorySection() {
             className="object-cover"
           />
         </div>
-        <div className="relative w-28 h-40 md:w-46 md:h-full rounded-xl overflow-hidden">
+        <div className="relative w-full h-40 md:w-46 md:h-full rounded-xl overflow-hidden">
           <Image
             src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739926/WhatsApp_Image_2025-10-29_at_09.58.59_51024166_ditgtd.jpg"
             alt="Work Image 3"
