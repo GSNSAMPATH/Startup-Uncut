@@ -83,8 +83,8 @@ export default function Timeline() {
               <div
                 className={`w-1/2 text-black justify-center  ${
                   item.side === "left"
-                    ? "text-right pr-8 lg:pr-8"
-                    : "text-left  pl-8 lg:pl-8"
+                    ? "text-right pr-2 lg:pr-8"
+                    : "text-left  pl-2 lg:pl-8"
                 }`}
               >
                 <h3 className={`font-poppins text-center w-[100px] sm:w-[120px] lg:w-[160px] mx-auto  bg-[#2e2e2e] text-gray-100  text-[10px] sm:text-[12px] lg:text-[16px] font-medium leading-relaxed rounded-4xl px-2 sm:px-3 lg:px-5 py-2 shadow-lg ${item.side === "left" ? " ml-2 sm:ml-4 lg:ml-10" : " mr-2 sm:mr-4 lg:mr-10"} `}>
