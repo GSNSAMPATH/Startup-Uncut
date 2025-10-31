@@ -55,7 +55,7 @@ const timelineData = [
 
 export default function Timeline() {
   return (
-    <section className="relative  text-black py-24 font-inter px-4 md:px-16">
+    <section className="relative  text-black py-10 md:py-20 font-inter px-4 md:px-16">
       <div className=" relative">
         {/* Title */}
         <h1 className="font-poppins text-[8px] sm:text-[12px] lg:text-[16px] font-semibold text-gray-500  tracking-wider">

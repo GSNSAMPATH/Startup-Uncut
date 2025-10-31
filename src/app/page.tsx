@@ -12,10 +12,10 @@ export default function Home() {
       <Hero />
       <AboutPage />
       <Timeline />
-      {/* <LogoGrid /> */}
-      {/* <StorySection />
+      <LogoGrid />
+      <StorySection />
       <StartupCommunity />
-      <VideoSection /> */}
+      {/* <VideoSection />  */}
     </>
   );
 }
