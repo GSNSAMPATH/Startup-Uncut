@@ -13,7 +13,7 @@ export default function AboutPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-[#1a1a1a] text-white px-6 md:px-16 py-20">
+    <main className="min-h-screen bg-[#1a1a1a] text-white px-4 md:px-16 py-20">
       <div className="">
         {/* Header */}
         <div className="mb-10">
