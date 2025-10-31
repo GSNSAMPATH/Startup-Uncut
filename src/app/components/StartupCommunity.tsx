@@ -38,7 +38,7 @@ export default function StartupCommunity() {
     <div className="flex flex-col lg:flex-row items-center justify-between">
 
       {/* Left Content */}
-      <div className=" z-10 order-2 lg:order-1 ">
+      <div className=" lg:max-w-md xl:max-w-2xl z-10 order-2 lg:order-1 ">
 
         <p className="font-poppins text-[12px] sm:text-[16px] lg:text-[24px] text-gray-300 mb-6 md:mb-10 leading-relaxed">
           Zinkq is the Startup Uncut community built for founders who believe in
