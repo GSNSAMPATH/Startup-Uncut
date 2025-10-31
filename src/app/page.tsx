@@ -1,10 +1,10 @@
-import Hero from "@/app/components/Hero";
-import AboutPage from "./components/about";
-import Timeline from "./components/TimeLine";
-import LogoGrid from "./components/LogoGrid";
-import StorySection from "./components/StorySection";
-import StartupCommunity from "./components/StartupCommunity";
-import VideoSection from "./components/VideoSection";
+import Hero from "@/app/components/Home/Hero";
+import AboutPage from "./components/Home/about";
+import Timeline from "./components/Home/TimeLine";
+import LogoGrid from "./components/Home/LogoGrid";
+import StorySection from "./components/Home/StorySection";
+import StartupCommunity from "./components/Home/StartupCommunity";
+
 
 export default function Home() {
   return (

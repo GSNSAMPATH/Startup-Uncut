@@ -87,7 +87,7 @@ export default function AboutPage() {
                 </div>
             </div>
             <div className="flex flex-col gap-4 w-full h-[400px] sm:h-[500] lg:h-[600px] py-38 md:py-44 ">
-                   <div className="flex flex-col gap-4 w-full h-[400px] sm:h-[500] lg:h-[600px]  rounded-xl">
+                   <div className="flex flex-col gap-4 w-full h-[600px]  rounded-xl">
                     <Image
                       src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739926/WhatsApp_Image_2025-10-29_at_09.58.59_1cb3f3d7_ziboeh.jpg"
                       alt="Villa Sathkara"
