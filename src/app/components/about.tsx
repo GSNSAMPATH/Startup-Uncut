@@ -26,7 +26,7 @@ export default function AboutPage() {
         {/* Collage Grid */}
         <div className="grid full grid-cols-5 lg:gap-4 mt-20 ">
           <div className="col-span-5 row-span-4 flex flex-row gap-2 sm:gap-3 lg:gap-4 w-full">
-            <div className="flex flex-col gap-4 w-full h-[400px] sm:h-[500] lg:h-[600px]  py-44 ">
+            <div className="flex flex-col gap-4 w-full h-[400px] sm:h-[500] lg:h-[600px] py-38 md:py-44 ">
                    <div className="flex flex-col gap-4 w-full h-[600px]  rounded-xl">
                     <Image
                       src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739926/WhatsApp_Image_2025-10-29_at_09.59.01_b66a7276_qxan0x.jpg"
@@ -86,7 +86,7 @@ export default function AboutPage() {
                     />
                 </div>
             </div>
-            <div className="flex flex-col gap-4 w-full h-[400px] sm:h-[500] lg:h-[600px]  py-44 ">
+            <div className="flex flex-col gap-4 w-full h-[400px] sm:h-[500] lg:h-[600px] py-38 md:py-44 ">
                    <div className="flex flex-col gap-4 w-full h-[600px]  rounded-xl">
                     <Image
                       src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739926/WhatsApp_Image_2025-10-29_at_09.58.59_1cb3f3d7_ziboeh.jpg"
