@@ -76,13 +76,13 @@ export default function AboutPage() {
                       className="object-cover w-full h-full rounded-xl hover:scale-110 transition duration-300 ease-in-out"
                     />
                 </div>
-                <div className="flex flex-col gap-4 w-full h-[300px]  rounded-xl">
+                <div className="flex flex-col gap-4 w-full h-[300px]  rounded-xl bg-white">
                     <Image
                       src="https://res.cloudinary.com/diatamf9x/image/upload/v1761739927/WhatsApp_Image_2025-10-29_at_09.59.00_49671580_tkiwc1.jpg"
                       alt="Villa Sathkara"
                       width={500}
                       height={500}
-                      className="object-cover w-full h-full rounded-xl  hover:scale-110 transition duration-300 ease-in-out"
+                      className="object-cover w-full h-full xl:h-[200px] rounded-xl hover:scale-110 transition duration-300 ease-in-out"
                     />
                 </div>
             </div>

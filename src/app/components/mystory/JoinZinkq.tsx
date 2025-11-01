@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function JoinZinkq() {
   return (
-    <section className="py-10 md:py-20 px-4 md:px-16">
+    <section className="py-8 md:py-20 px-4 md:px-16">
         <div className="relative w-full overflow-hidden rounded-xl md:rounded-3xl text-white px-4 py-4 md:px-16 md:py-20 shadow-[0_0_60px_-15px_rgba(0,0,0,0.6)]">
       {/* === GRADIENT LAYERS === */}
       <div className="absolute inset-0 bg-[#1e1f21]" />

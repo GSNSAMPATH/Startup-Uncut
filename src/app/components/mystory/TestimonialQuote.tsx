@@ -4,7 +4,7 @@ import { FaD, FaQuoteLeft } from "react-icons/fa6";
 
 export default function TestimonialQuote() {
   return (
-    <section className="relative w-full overflow-hidden px-4 md:px-16 py-20 md:px-20 md:py-28">
+    <section className="relative w-full overflow-hidden px-4 md:px-16 py-12 md:px-20 md:py-28">
       <div className="flex flex-col gap-1 items-start ">
         {/* LARGE QUOTE ICON */}
         <div className="text-[#111] text-[20px] sm:text-[30px] lg:text-[40px] ">
@@ -26,7 +26,7 @@ export default function TestimonialQuote() {
 
           <p className="mt-6 font-poppins text-[20px] sm:text-[30px] lg:text-[40px] text-gray-500 font-medium">
             <span className="font-semibold">—</span>  Shashindu
-          </p>
+          </p>  
         </div>
       </div>
     </section>
